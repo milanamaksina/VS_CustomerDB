@@ -74,5 +74,9 @@
     <Build Include="dbo\StoredProcedures\CustomersDelete.sql" />
     <Build Include="dbo\StoredProcedures\CustomersUpdate.sql" />
     <Build Include="dbo\StoredProcedures\CustomersGet.sql" />
+    <Build Include="dbo\StoredProcedures\NotesAdd.sql" />
+    <Build Include="dbo\StoredProcedures\NotesDelete.sql" />
+    <Build Include="dbo\StoredProcedures\NotesUpdate.sql" />
+    <Build Include="dbo\StoredProcedures\NotesGet.sql" />
   </ItemGroup>
 </Project>
