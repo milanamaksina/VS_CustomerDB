@@ -60,10 +60,19 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Customers.sql" />
     <Build Include="dbo\Tables\Addresses.sql" />
     <Build Include="dbo\Tables\Notes.sql" />
+    <Build Include="dbo\StoredProcedures\AddressAdd.sql" />
+    <Build Include="dbo\StoredProcedures\AddressDelete.sql" />
+    <Build Include="dbo\StoredProcedures\AddressUpdate.sql" />
+    <Build Include="dbo\StoredProcedures\AddressGet.sql" />
+    <Build Include="dbo\StoredProcedures\CustomersAdd.sql" />
+    <Build Include="dbo\StoredProcedures\CustomersDelete.sql" />
+    <Build Include="dbo\StoredProcedures\CustomersUpdate.sql" />
+    <Build Include="dbo\StoredProcedures\CustomersGet.sql" />
   </ItemGroup>
 </Project>
