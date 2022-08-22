@@ -6,6 +6,7 @@ BEGIN
 	LastName, 
 	PhoneNumber, 
 	Email, 
+	Notes,
 	TotalPurchasesAmount
 	FROM dbo.Customers
 

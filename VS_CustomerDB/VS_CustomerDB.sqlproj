@@ -65,7 +65,6 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Customers.sql" />
     <Build Include="dbo\Tables\Addresses.sql" />
-    <Build Include="dbo\Tables\Notes.sql" />
     <Build Include="dbo\StoredProcedures\AddressAdd.sql" />
     <Build Include="dbo\StoredProcedures\AddressDelete.sql" />
     <Build Include="dbo\StoredProcedures\AddressUpdate.sql" />
@@ -74,9 +73,5 @@
     <Build Include="dbo\StoredProcedures\CustomersDelete.sql" />
     <Build Include="dbo\StoredProcedures\CustomersUpdate.sql" />
     <Build Include="dbo\StoredProcedures\CustomersGet.sql" />
-    <Build Include="dbo\StoredProcedures\NotesAdd.sql" />
-    <Build Include="dbo\StoredProcedures\NotesDelete.sql" />
-    <Build Include="dbo\StoredProcedures\NotesUpdate.sql" />
-    <Build Include="dbo\StoredProcedures\NotesGet.sql" />
   </ItemGroup>
 </Project>

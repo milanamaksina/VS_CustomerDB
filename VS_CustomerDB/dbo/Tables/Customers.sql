@@ -4,6 +4,7 @@
     [LastName]             NVARCHAR (50) NOT NULL,
     [PhoneNumber]          NVARCHAR (20) NULL,
     [Email]                NVARCHAR (50) NULL,
+    [Notes]                NVARCHAR (250) NOT NULL,
     [TotalPurchasesAmount] MONEY         NULL,
     PRIMARY KEY CLUSTERED ([CustomerId] ASC),
     CHECK ([Email] like '%[a-zA-Z0-9][@][a-zA-Z0-9]%[.][a-zA-Z0-9]%'),

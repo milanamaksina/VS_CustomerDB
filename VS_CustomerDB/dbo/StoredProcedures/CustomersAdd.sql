@@ -11,11 +11,13 @@ INSERT INTO dbo.[Customers](
 	LastName, 
 	PhoneNumber, 
 	Email, 
+	Notes,
 	TotalPurchasesAmount)
 VALUES(
     FirstName, 
 	LastName, 
 	PhoneNumber, 
+	Notes,
 	Email, 
 	TotalPurchasesAmount)
 	
