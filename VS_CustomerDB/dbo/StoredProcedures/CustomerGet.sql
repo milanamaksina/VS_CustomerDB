@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[Customers_Get]
+﻿CREATE PROCEDURE [dbo].[Customer_Get]
 	AS
 BEGIN
 
@@ -11,4 +11,3 @@ BEGIN
 	FROM dbo.Customers
 
 END
-

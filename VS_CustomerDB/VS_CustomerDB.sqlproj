@@ -69,9 +69,9 @@
     <Build Include="dbo\StoredProcedures\AddressDelete.sql" />
     <Build Include="dbo\StoredProcedures\AddressUpdate.sql" />
     <Build Include="dbo\StoredProcedures\AddressGet.sql" />
-    <Build Include="dbo\StoredProcedures\CustomersAdd.sql" />
-    <Build Include="dbo\StoredProcedures\CustomersDelete.sql" />
-    <Build Include="dbo\StoredProcedures\CustomersUpdate.sql" />
-    <Build Include="dbo\StoredProcedures\CustomersGet.sql" />
+    <Build Include="dbo\StoredProcedures\CustomerAdd.sql" />
+    <Build Include="dbo\StoredProcedures\CustomerDelete.sql" />
+    <Build Include="dbo\StoredProcedures\CustomerGet.sql" />
+    <Build Include="dbo\StoredProcedures\CustomerUpdate.sql" />
   </ItemGroup>
 </Project>

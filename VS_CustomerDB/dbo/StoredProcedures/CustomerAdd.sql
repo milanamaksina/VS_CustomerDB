@@ -2,7 +2,8 @@
     @FirstName nvarchar(50),
     @LastName nvarchar(50),
     @PhoneNumber nvarchar(16),   
-    @Email nvarchar(50),     
+    @Email nvarchar(50),    
+	@Notes nvarchar(250),
     @TotalPurchasesAmount int
 AS
 BEGIN
@@ -14,13 +15,12 @@ INSERT INTO dbo.[Customers](
 	Notes,
 	TotalPurchasesAmount)
 VALUES(
-    FirstName, 
-	LastName, 
-	PhoneNumber, 
-	Notes,
-	Email, 
-	TotalPurchasesAmount)
+    @FirstName, 
+	@LastName, 
+	@PhoneNumber, 
+	@Email, 
+	@Notes,
+	@TotalPurchasesAmount)
 	
 SELECT @@IDENTITY
 END
-
